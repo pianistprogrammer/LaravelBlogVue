@@ -1,0 +1,1 @@
+!function(s){"use strict";s("#chat_user").slimscroll({height:"600px",size:"2px"}),s("#chat-conversation").slimscroll({height:"600px",size:"2px"})}(jQuery);
