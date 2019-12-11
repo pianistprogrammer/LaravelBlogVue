@@ -131,6 +131,9 @@
 </head>
 
 <body class="home blog custom-background body_boxed">
+	<div id="root">
+
+	
 	<div class="body-overlay"></div>
 	<div class="baloo-navsidebar nav-siderbar">
 		<div class="logo-navbar">
@@ -151,43 +154,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget">
-				<h4 class="widget-title">Newsletter</h4>
-				<script>(function () {
-						if (!window.mc4wp) {
-							window.mc4wp = {
-								listeners: [],
-								forms: {
-									on: function (event, callback) {
-										window.mc4wp.listeners.push({
-											event: event,
-											callback: callback
-										});
-									}
-								}
-							}
-						}
-					})();
-				</script><!-- Mailchimp for WordPress v4.5.2 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-				<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-183" method="post" data-id="183"
-					data-name="Newsletter">
-					<div class="mc4wp-form-fields">
-						<div class="baloo-newsletter">
-							<label>Subscribe to the Baloo newsletter to receive timely updates from newsletter to
-								receive timely updates from texts would hardly be possible even now.</label>
-							<div class="form-newsletter">
-								<input type="email" name="EMAIL" placeholder="Your email address" required />
-								<button type="submit" value="Sign up">Sign up</button>
-							</div>
-						</div>
-					</div><label style="display: none !important;">Leave this field empty if you're human: <input
-							type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
-							autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp"
-						value="1567485454" /><input type="hidden" name="_mc4wp_form_id" value="183" /><input
-						type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-					<div class="mc4wp-response"></div>
-				</form><!-- / Mailchimp for WordPress Plugin -->
-			</div>
+			 
 			<div id="baloo_latest_posts_widget-5" class="widget baloo_latest_posts_widget">
 				<h4 class="widget-title">Latest Posts</h4>
 				<div class="baloo-post-widget list">
@@ -550,6 +517,9 @@
 			</div>
 		</footer>
 	</div>
+	</div>
+	<script src="{{ asset('js/app.js') }}" defer></script>
+
 	<script>(function () {
 			function addEventListener(element, event, handler) {
 				if (element.addEventListener) {
@@ -613,8 +583,7 @@
     src="{{ asset('wp-includes/js/wp-embed.minbb49.js?ver=5.2.2') }}"
    ></script>
 <!--[if lte IE 9]>
-<script type='text/javascript' src='http://baloo.az-theme.net/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.5.2'></script>
-<![endif]-->
+ <![endif]-->
 </body>
 
 
